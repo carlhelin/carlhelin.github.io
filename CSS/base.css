@@ -92,3 +92,47 @@ header {
   margin-left: 24px; /* Add some space between the icons */
   text-align: left;
 }
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
+  .profile_pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .social-icons {
+    margin-left: 20px;
+  }
+
+  .new_projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile_pic {
+    width: 125px;
+    height: 125px;
+  }
+
+  .title {
+    margin-right: 137px;
+  }
+
+  .name {
+    font-size: 1rem; /* 48px for sm:text-5xl */
+  }
+
+  .topnav a {
+    font-size: 12px;
+  }
+
+  .social-icons {
+    margin-left: 30px;
+  }
+
+  .fa {
+    font-size: 20px;
+    margin: 5px 5px;
+  }
+}
