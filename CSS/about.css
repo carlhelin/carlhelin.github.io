@@ -1,46 +1,48 @@
-/* About Me Section */
 #about-me {
-  color: #ccd6f6; /* Primary text color */
-  padding: 2em 1em; /* Space around the content */
-  background-color: #112240; /* Slightly lighter shade of the background */
+  color: #ccd6f6;
+  padding: 2em 1em;
+  background-color: #112240;
+}
+
+.same_top::after {
+  height: 0px;
 }
 
 .about-content h1 {
-  color: #b0c7dd; /* Highlight color for headings */
-  font-size: 2rem; /* 32px for larger headings */
-  margin: 1em 0; /* Space around headings */
-  border-bottom: 2px solid #233554; /* Border under the heading for emphasis */
-  padding-bottom: 0.5em; /* Space between text and border */
-  text-align: center; /* Center the heading */
+  color: #b0c7dd;
+  font-size: 2rem;
+  margin: 1em 0;
+  border-bottom: 2px solid #233554;
+  padding-bottom: 0.5em;
+  text-align: center;
 }
 
 .about-content p {
-  font-size: 1rem; /* 16px for normal text */
-  line-height: 1.5; /* Line height for readability */
-  margin-bottom: 1em; /* Space below paragraphs */
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1em;
   text-align: center;
 }
 
 .about-content ul {
-  list-style-type: disc; /* Disc style for list items */
-  margin: 1em 0; /* Space around the list */
-  padding-left: 1.5em; /* Indentation for list */
+  list-style-type: disc;
+  margin: 1em 0;
+  padding-left: 1.5em;
 }
 
 .about-content li {
-  font-size: 1rem; /* 16px for list items */
-  margin-bottom: 0.5em; /* Space below list items */
+  font-size: 1rem;
+  margin-bottom: 0.5em;
 }
 
-/* Footer */
 footer {
-  background-color: #0a192f; /* Dark blue background for footer */
-  color: #ccd6f6; /* Primary text color */
+  background-color: #0a192f;
+  color: #ccd6f6;
   text-align: center;
-  padding: 1em 0; /* Space around the footer content */
+  padding: 1em 0;
 }
 
 .footer-content p {
-  margin: 0; /* Remove default margin */
-  font-size: 0.875rem; /* 14px for footer text */
+  margin: 0;
+  font-size: 0.875rem;
 }

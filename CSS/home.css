@@ -1,51 +1,24 @@
 .new_projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Maximum of 3 columns */
-  grid-template-rows: repeat(2, 1fr); /* Always have 2 rows */
-  gap: 20px; /* Increase gap for better spacing */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
   padding: 0 20px;
 }
 
-/* Projects Section */
 .projects_title {
   text-align: center;
-  color: #ccd6f6; /* Primary text color */
+  color: #ccd6f6;
   padding: 1em 0;
-  border-top: 3px solid #233554; /* Thicker border */
-  /* border-bottom: 1px solid #233554; /* Optional: Adds a bottom border for balance */
-  position: relative; /* For the pseudo-element */
-  margin: 0;
-}
-
-.projects_title::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 7px; /* Height of the gradient border */
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0) 0%,
-    #233554 50%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  z-index: -1; /* Positioned behind the text */
-}
-
-.projects_title h {
+  position: relative;
   margin: 0;
 }
 
 .box {
-  background: linear-gradient(
-    135deg,
-    #1e2a38,
-    #112240
-  ); /* Gradient background */
+  background: linear-gradient(135deg, #1e2a38, #112240);
   padding: 20px;
-  border-radius: 0; /* No rounded corners */
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+  border-radius: 0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,38 +29,36 @@
 }
 
 .box:hover {
-  transform: translateY(-8px); /* Slight lift effect */
-  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+  transform: translateY(-8px);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.4);
 }
 
 .box h2 {
   font-size: 18px;
-  color: #ccd6f6; /* Primary text color */
+  color: #ccd6f6;
   margin: 0;
 }
 
 .box p {
   margin-top: 5px;
   font-size: 14px;
-  color: #8892b0; /* Secondary text color */
+  color: #8892b0;
 }
 
-/* Work Experience Section */
 #work-experience {
   margin-top: 40px;
   padding: 20px;
   color: #ccd6f6;
   text-align: center;
-  background-color: #112240; /* Background color */
-  position: relative; /* For the pseudo-element */
+  background-color: #112240;
+  position: relative;
 }
 
-/* Media query for mobile devices */
 @media screen and (max-width: 480px) {
   .new_projects {
-    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
-    padding: 0 10px; /* Adjust padding for smaller screens */
-    width: 100%; /* Ensure it takes full width */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
