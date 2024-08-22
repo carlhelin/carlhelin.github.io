@@ -155,8 +155,12 @@ header {
     margin: 5px 5px;
   }
 
-  .social-icons .fa {
-    font-size: 16px;
+  .social-icons .fab {
+    font-size: 13px;
+    margin: 3px 3px;
+  }
+  .social-icons .fa-brands {
+    font-size: 13px;
     margin: 3px 3px;
   }
 }
