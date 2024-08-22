@@ -89,15 +89,15 @@ header {
 
 /* Social Icons */
 .social-icons {
-  margin-left: 24px; /* Add some space between the icons */
+  margin-left: 10px; /* Add some space between the icons */
   text-align: left;
 }
 
 /* Responsive Design */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .profile_pic {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   .social-icons {
@@ -105,10 +105,10 @@ header {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .profile_pic {
-    width: 125px;
-    height: 125px;
+    width: 75px;
+    height: 75px;
   }
 
   .title {
@@ -123,12 +123,13 @@ header {
     font-size: 12px;
   }
 
-  .social-icons {
-    margin-left: 30px;
-  }
-
   .fa {
     font-size: 20px;
     margin: 5px 5px;
+  }
+
+  .social-icons .fa {
+    font-size: 16px; /* Adjust the size as needed */
+    margin: 3px 3px; /* Adjust the margin as needed */
   }
 }
