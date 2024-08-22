@@ -103,10 +103,6 @@ header {
   .social-icons {
     margin-left: 20px;
   }
-
-  .new_projects {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 @media screen and (max-width: 600px) {
