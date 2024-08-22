@@ -35,6 +35,11 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+.gallery__img:hover {
+  transform: scale(1.1); /* Enlarge the image */
 }
 
 /* Define a general pattern for grid items */
