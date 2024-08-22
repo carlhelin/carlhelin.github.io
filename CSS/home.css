@@ -81,3 +81,10 @@
   background-color: #112240; /* Background color */
   position: relative; /* For the pseudo-element */
 }
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+  .new_projects {
+    padding: 0 20px 0 20px; /* Add padding on the right side */
+  }
+}
