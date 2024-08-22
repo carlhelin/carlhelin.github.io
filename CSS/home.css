@@ -85,6 +85,9 @@
 /* Media query for mobile devices */
 @media screen and (max-width: 480px) {
   .new_projects {
-    padding: 0 20px 0 20px; /* Add padding on the right side */
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    padding: 0 10px; /* Adjust padding for smaller screens */
+    width: 100%; /* Ensure it takes full width */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
   }
 }
