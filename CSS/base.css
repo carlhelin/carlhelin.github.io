@@ -48,13 +48,13 @@ header {
 .title {
   flex: 1;
   text-align: center;
-  margin-right: 210px;
+  margin-right: 13em;
 }
 
 .name {
-  font-size: 2.95rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.075em;
   color: #ccd6f6;
 }
 

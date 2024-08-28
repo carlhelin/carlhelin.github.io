@@ -1,6 +1,10 @@
 .contact-container {
-  padding: 50px 0;
   text-align: center;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-info a {
@@ -10,7 +14,7 @@
 
 .email-highlight {
   font-weight: bold;
-  color: #ffa500; /* Choose a stand-out color */
+  color: #ffa500;
   animation: pulse 1.5s infinite;
 }
 
@@ -19,7 +23,7 @@
     opacity: 1;
   }
   50% {
-    opacity: 0.7;
+    opacity: 0.3;
   }
   100% {
     opacity: 1;
