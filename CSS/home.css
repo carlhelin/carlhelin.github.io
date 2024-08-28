@@ -57,8 +57,16 @@
 @media screen and (max-width: 480px) {
   .new_projects {
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 10px;
+    padding: 0 20px;
     width: 100%;
     box-sizing: border-box;
+  }
+
+  .new_projects h2 {
+    font-size: 1rem;
+  }
+
+  .projects_title {
+    font-size: 0.75rem;
   }
 }
