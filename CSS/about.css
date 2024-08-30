@@ -92,6 +92,8 @@
   padding: 2em 4em;
   background-color: #0a192f;
   color: #ccd6f6;
+  max-width: 1200px; /* Add a max-width to control the width */
+  margin: 0 auto;
 }
 
 #in-the-press h2 {
@@ -105,6 +107,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5em;
   max-width: 1200px;
+  justify-content: center;
 }
 
 .press-quote {
