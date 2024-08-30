@@ -189,14 +189,6 @@
   max-height: 30px;
 }
 
-/* Media Query for smaller screens */
-@media (max-width: 480px) {
-  .press-content {
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
-  }
-}
-
 /* Media Query for phones and tablets */
 @media (max-width: 768px) {
   .flip-card-inner {
@@ -205,5 +197,24 @@
 
   .flip-card-inner.clicked {
     transform: rotateY(180deg);
+  }
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 480px) {
+  .press-content {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(3, auto); /* 3 rows */
+    grid-gap: 1em;
+  }
+
+  .press-quote {
+    font-size: 0.6em;
+    padding: 0.1em;
+    margin: 0.1em 0;
+  }
+
+  .press-quote p {
+    font-size: 1.2em;
   }
 }
