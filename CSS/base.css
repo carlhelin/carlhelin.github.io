@@ -30,6 +30,11 @@ body {
   color: #b0c7dd;
 }
 
+.topnav a.active {
+  background-color: #112240;
+  color: #b0c7dd;
+}
+
 header {
   background-color: #0a192f;
   color: #ccd6f6;
