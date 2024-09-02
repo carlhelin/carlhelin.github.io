@@ -1,7 +1,7 @@
 /* About Me Section */
 #about-me {
   color: #ccd6f6;
-  padding: 12em 4em;
+  padding: 12em 2em;
   background-color: #112240;
 }
 
@@ -15,8 +15,8 @@
 /* Flip Card Styles */
 .flip-card {
   background-color: transparent;
-  width: 200px;
-  height: 200px;
+  width: 235px;
+  height: 235px;
   perspective: 1000px;
 }
 
@@ -176,7 +176,7 @@
 }
 
 .washington-logo {
-  max-width: 200px;
+  max-width: 160px;
 }
 
 .openai-logo {

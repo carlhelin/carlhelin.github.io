@@ -52,6 +52,12 @@
   text-align: center;
   background-color: #112240;
   position: relative;
+  font-size: 0.8rem;
+}
+
+#work-experience h1 {
+  margin: 0;
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 480px) {

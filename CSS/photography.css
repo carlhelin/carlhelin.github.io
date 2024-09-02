@@ -20,6 +20,7 @@
   grid-auto-rows: minmax(100px, auto);
   gap: 10px;
   padding: 20px;
+  margin: 1.2rem;
 }
 
 .gallery__img {
@@ -31,7 +32,7 @@
 }
 
 .gallery__img:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .gallery__item {
