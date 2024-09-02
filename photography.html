@@ -353,5 +353,19 @@
         });
       });
     </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const currentPath = window.location.pathname;
+        const navLinks = document.querySelectorAll(".topnav a");
+        console.log(currentPath);
+
+        navLinks.forEach((link) => {
+          console.log(link.getAttribute("href"));
+          if (link.getAttribute("href") === "./photography") {
+            link.classList.add("active");
+          }
+        });
+      });
+    </script>
   </body>
 </html>
