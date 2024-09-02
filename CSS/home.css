@@ -46,18 +46,18 @@
 }
 
 #work-experience {
+  height: auto;
   margin-top: 40px;
-  padding: 20px;
+  padding: 70px;
   color: #ccd6f6;
   text-align: center;
   background-color: #112240;
-  position: relative;
   font-size: 0.8rem;
 }
 
 #work-experience h1 {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 480px) {
