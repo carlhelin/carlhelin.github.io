@@ -33,6 +33,10 @@
   transform: rotateY(180deg);
 }
 
+.flip-card-inner.clicked {
+  transform: rotateY(180deg);
+}
+
 .flip-card-front,
 .flip-card-back {
   position: absolute;
@@ -49,15 +53,15 @@
 }
 
 .flip-card-back a {
-  color: #007bff; /* Change the color to a more appealing one */
-  text-decoration: none; /* Remove the underline */
-  font-weight: bold; /* Make the text bold */
-  transition: color 0.3s ease; /* Add a transition effect for color change */
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .flip-card-back a:hover {
-  color: #0056b3; /* Change the color on hover */
-  text-decoration: underline; /* Add underline on hover */
+  color: #0056b3;
+  text-decoration: underline;
 }
 
 .flip-card-front {
