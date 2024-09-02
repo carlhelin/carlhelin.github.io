@@ -205,9 +205,8 @@
               innerCard.classList.toggle("clicked");
             }
           };
-
-          // card.addEventListener("click", toggleCard);
           card.addEventListener("touchstart", toggleCard);
+          card.addEventListener("touchend", toggleCard);
         });
       });
     </script>
