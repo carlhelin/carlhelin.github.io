@@ -247,4 +247,13 @@
   .flip-card-front h1 {
     font-size: 1.2em;
   }
+
+  .flip-card {
+    width: 10em;
+    height: 10em;
+  }
+
+  .flip-card-back p {
+    font-size: 0.7em;
+  }
 }
