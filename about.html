@@ -199,10 +199,15 @@
         const flipCards = document.querySelectorAll(".flip-card");
 
         flipCards.forEach((card) => {
-          card.addEventListener("click", function () {
+          const toggleCard = function () {
             const innerCard = card.querySelector(".flip-card-inner");
-            innerCard.classList.toggle("clicked");
-          });
+            if (innerCard) {
+              innerCard.classList.toggle("clicked");
+            }
+          };
+
+          card.addEventListener("click", toggleCard);
+          card.addEventListener("touchstart", toggleCard);
         });
       });
     </script>
@@ -210,10 +215,8 @@
       document.addEventListener("DOMContentLoaded", function () {
         const currentPath = window.location.pathname;
         const navLinks = document.querySelectorAll(".topnav a");
-        console.log(currentPath);
 
         navLinks.forEach((link) => {
-          console.log(link.getAttribute("href"));
           if (link.getAttribute("href") === "./about") {
             link.classList.add("active");
           }
