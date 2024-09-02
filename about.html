@@ -198,14 +198,23 @@
       document.addEventListener("DOMContentLoaded", function () {
         const flipCards = document.querySelectorAll(".flip-card");
 
+        if (flipCards.length === 0) {
+          console.error("No flip-card elements found.");
+        }
+
         flipCards.forEach((card) => {
-          const toggleCard = function () {
+          const toggleCard = function (event) {
+            event.preventDefault(); // Prevent default touch behavior
             const innerCard = card.querySelector(".flip-card-inner");
             if (innerCard) {
               innerCard.classList.toggle("clicked");
+              console.log("Card toggled:", innerCard);
+            } else {
+              console.error("No .flip-card-inner element found inside:", card);
             }
           };
           card.addEventListener("touchstart", toggleCard);
+          card.addEventListener("click", toggleCard);
         });
       });
     </script>

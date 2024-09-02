@@ -29,10 +29,6 @@
   transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
 .flip-card-inner.clicked {
   transform: rotateY(180deg);
 }
@@ -191,6 +187,12 @@
 .nelson-logo {
   max-width: 100px;
   max-height: 30px;
+}
+
+@media (min-width: 769px) {
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
 }
 
 /* Media Query for phones and tablets */
