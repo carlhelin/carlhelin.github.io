@@ -1,8 +1,9 @@
 /* About Me Section */
 #about-me {
   color: #ccd6f6;
-  padding: 12em 2em;
+  padding: 6em 2em;
   background-color: #112240;
+  min-height: 500px;
 }
 
 .about-content {
@@ -48,6 +49,17 @@
   font-size: 0.95rem;
 }
 
+.flip-card-front h1 {
+  margin-right: 20px; /* Add some space between the text and the image */
+}
+
+.flip-card-front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .flip-card-back a {
   color: #007bff;
   text-decoration: none;
@@ -87,13 +99,18 @@
   margin-bottom: 0.5em;
 }
 
+.click {
+  height: 25px;
+}
+
 /* In The Press Section */
 #in-the-press {
   padding: 2em 4em;
   background-color: #0a192f;
   color: #ccd6f6;
-  max-width: 1200px; /* Add a max-width to control the width */
+  max-width: 1200px;
   margin: 0 auto;
+  margin-top: 15em;
 }
 
 #in-the-press h2 {
@@ -189,6 +206,9 @@
   max-height: 30px;
 }
 
+.farmer-logo {
+}
+
 @media (min-width: 769px) {
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
@@ -221,6 +241,10 @@
   }
 
   .press-quote p {
+    font-size: 1.2em;
+  }
+
+  .flip-card-front h1 {
     font-size: 1.2em;
   }
 }
